@@ -73,7 +73,7 @@ h3.nav-logo {
     font-family: "Inter", sans-serif;
     margin: 0px;
 }
-button.btn-primary {
+button.btn-primary, .form-btn {
     border: none;
     background: #4E47FF;
     color: #FFFFFF;
@@ -166,10 +166,11 @@ h1.users-title {
 }  
 p.live-users {
     margin: 0px;
-}                                
-                                        /* Get In Touch Section Style */
+}    
 
-.get-in-touch-section {
+                                        /* User Comment Section Style */
+
+.user-comment-section {
     width: 100%;
     height: 100%;
     display: flex;
@@ -178,7 +179,7 @@ p.live-users {
     align-items: center;
 }
 
-.get-in-touch-section-blog {
+.user-comment-section-blog {
     width: 100%;
     max-width: 1140px;
     text-align: center;
@@ -197,7 +198,6 @@ p.live-users {
 .blog-details {
     background: #FFFFFF;
     padding: 24px;
-    background: #FAFCFF;
     background: linear-gradient(84deg, rgba(255, 184, 5, 0.04) 100%, rgba(242, 237, 237, 1) 100%, rgba(255, 255, 255, 1) 50%);
     border-radius: 10px;
     border: 1px solid #E7EAFF;
@@ -227,7 +227,7 @@ p.live-users {
     font-size: 13px;
 }
 
-/* Focus Section Style */
+                                        /* Focus Section Style */
 
 .focus-section {
     width: 100%;
@@ -245,7 +245,7 @@ p.live-users {
     border-radius: 14px;
     align-items: center;
     margin-top: 130px;
-    padding: 71px;
+    padding: 71px 0px;
 }  
 p.focus-description {
     margin: 0px;
@@ -263,4 +263,51 @@ p.focus-description {
 } 
 .focus-img img {
     border-radius: 48px;
+}
+
+                                        /* Get In Touch Section Style */
+.get-in-touch-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.get-in-touch {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 51px 0px;
+    margin-top: 113px;
+    gap: 60px;
+}
+.get-in-touch-form input[type="text"], .get-in-touch-form input[type="email"], .get-in-touch-form textarea {
+    padding: 20px 30px;
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #E7EAFF;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.get-in-touch-heading h1 {
+    font-size: 97px;
+}
+.get-in-touch-form p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter';
+    margin-bottom: 10px;
+}
+.form-btn{
+    width: 113%;
+    height: 50px;
 }
